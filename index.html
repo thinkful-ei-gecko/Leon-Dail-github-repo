@@ -8,6 +8,16 @@
   <title>GitHub API Test</title>
 </head>
 <body>
+    <h1>Search for a user's github repos</h1>
+    <form id="github-search">
+        <label for="search">Enter a user's github handle to search: </label>
+        <input type="text" value="" id="search" />
+        <button type="submit">Search</button>
+    </form>
+    <section id="display-results">
+        <h2 class="username-repos"></h2>
+        <ul class="repo-list"></ul>
+    </section>
   
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="index.js"></script>
